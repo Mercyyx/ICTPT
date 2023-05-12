@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title> CHONG Q3 PT</title>
+       <style>
+         *  {
+             font-family: "Times New Roman", Times, serif;          
+           }
+         .us{
+          float:left;
+          width: 250px;
+          height: 250px;
+          display: block;
+          margin-left:200px;
+         }
+ 
+       
+        .A {
+            border-style: solid;
+            font-size: 35px;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+            border-width: 2px;
+           }
+ 
+        #as{
+            text-shadow: 0 0 3px Tan;
+           }
+        #cu{
+        text-shadow: 1px 1px 2px black, 0 0 25px #08C28D, 0 0 5px #0AB19F;
+        text-decoration-line:underline;
+        text-decoration-color:rosybrown;
+        text-decoration-thickness:3px;
+          }
+ 
+        .footer{
+        text-shadow: 0 0 3px #09BA96, 0 0 5px #08C28D;
+          }
+ 
+        #sm{
+        text-shadow: 1px 1px 2px Tan, 0 0 25px #09BA96, 0 0 5px #08C28D;
+          }
+ 
+        p {
+            width: 95%;
+        }
+        .column.main {
+              height:1000px;
+              margin-left:20%;
+              padding:1px 16px;
+              width:80%
+        }
+        .names {
+         font-size:35px;
+         text-align:middle;
+         color: #0BA9A8;
+         float: Left;
+         margin-left: 200px;
+        }
+ 
+        .disc {
+        border-left: 6px solid red;
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+}
+nav {
+  float: left;
+  position: sticky;
+  top:0;
+  min-height: 60px;
+  width:20%
+  margin-right:20%;
+}
+ 
+nav a {
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}  
+ 
+li {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0CA0B1;
+}
+li a, .dropbtn {
+  overflow: hidden;
+  display: block;
+  color: White;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+ 
+li a:hover, .dropbtn:hover .dropbtn {
+  display: block;
+}
+ 
+li.dropdown {
+  display: block;
+}
+ 
+.dropdown-content {
+  display: none;
+   position: absolute;
+   background-color:white;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px;
+   z-index: 1;
+}
+.dropdown-content a {
+   color:white;
+   padding: 15px 15px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+}
+nav dropdown-content a:hover {
+   background-color: burlywood;
+   }
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+ 
+nav a:hover {
+  background-color: burlywood;
+}
+ 
+.books {
+  display: block;
+  margin-left:180px;
+  float: left;
+}
+ 
+.button {
+  background-color:antiquewhite;
+  border: none;
+  color: burlywood;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+ 
+.button1 {
+  background-color: antiquewhite;
+  color: burlywood;
+  border: 2px solid burlywood;
+  border-radius: 12px;
+}
+ 
+.button1:hover {
+  background-color: white;
+  color: white;
+}
+ 
+.button2 {
+  background-color: antiquewhite;
+  color: burlywood;
+  border: 2px solid burlywood;
+  border-radius: 12px;
+}
+ 
+.button2:hover {background-color:antiquewhite;}
+ 
+.button3 {
+  background-color:antiquewhite;
+  color: burlywood;
+  border: 2px solid burlywood
+  border-radius: 12px;
+}
+ 
+.button3:hover {
+  background-color: antiquewhite;
+  color: burlywood;
+}
+ 
+a:link, a:visited {
+  background-color: antiquewhite;
+  color: burlywood;
+  padding: 14px 25px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+ 
+h5:hover, h5:active {
+  background-color:antiquewhite;
+  color:burlywood;
+}
+       </style>
+   </head>
+ 
+ <body style= background-color:ivory;>
+ 
+   <header style="
+  background-color: burlywood ;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;">
+    <h1>Books for You and Me</h1>
+   </header>
+ 
+ 
+ <nav style="
+ float: left;
+ width: 15%;
+ height: 32000px;
+ background: navajowhite;
+ padding: 10px;
+ font-size: 30px;">
+      <li><a href="#Home">Home</a></li>
+      <li class="dropdown">
+        <a href="#dropdown" class="dropbtn">Books</a>
+        <div class="dropdown-content">
+          <a href="#Fiction">Fiction</a>
+          <a href="#Non Fiction">Non Fiction</a>
+          <a href="#Fantasy">Fantasy</a>
+        <a href="#Drama">Drama</a>
+         <a href="#Horror">Horror</a>
+         <li class="dropdown">
+      <a href="#Manga" class="dropbtn">Manga</a>
+      <div class="dropdown-content">
+            <a href="#Shoujo">Shoujo</a>
+            <a href="#Sports">Sports</a>
+            <a href="#shonen">Shonen</a>
+            <a href="#Comedy">Comedy</a>
+       <li class="dropdown">
+
+      </div>
+
+      </li>
+      <li><a href="#About us">About us</a></li>
+
+ </nav>
+<div class="column.main">
+  <article style="
+   padding:30px;
+  </article>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+ <article style="
+   <h1 align=middle><a style="color:#0e1e5e;" id="Home" class="A">Home</a></h1>
+   <br>
+   <br>
+      <h1 align = middle> Best Sellers </h1>
+   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1582135294i/36809135.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Where the crawdads sing</h2></p>
+<p><h3>Author: Delia Owens</h3></p>
+<p><h2>PHP 519.50</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>It's about a young woman named Kya, who's left to raise herself in the marshes of North Carolina when her family abandons her at a young age. There is so much to her story: romance, mystery, and a murder. And it takes place in the breathtaking backdrop of the South.</i></b></p>
+<br>
+<a href="https://en.wikipedia.org/wiki/Where_the_Crawdads_Sing" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">The Shining</h2></p>
+<p><h3>Author: Stephen King</h3></p>
+<p><h2>PHP 1,160.45 </h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The Shining is a 1977 horror novel by American author Stephen King. It tells the story of Jack, Wendy, and Danny Torrance during an isolated winter in which Jack becomes the caretaker of Colorado's Overlook Hotel. It deals with themes of parenthood, isolation, addiction, and the bonds of family..</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/The_Shining_(novel)" target="_blank">More description</a>
+ <br>
+<br>
+<br>
+ <br>
+
+<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkWXbfQrO5oTm1I5izjeRTbQD-vKPnybT24S2kFw2eH8LyyCo5" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Harry Potter and the Sorcerer's Stone</h2></p>
+<p><h3>Author: J. K. Rowling</h3></p>
+<p><h2>PHP  625.00 </h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry.</i></b></p>
+ <br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher's_Stone" target="_blank">More description</a>
+ <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+   <h2 align=middle><a style="color:#0e1e5e;" id="Fiction" class="A">Fiction</a></h2>
+
+ <br>
+   <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuJ_yewMdULCJT15hAwyU-OikRIU0GC6yPuUyaBcEk08yEMc5E" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">The Great Gatsby</h2></p>
+<p><h3>Author: F. Scott fitzgerald</h3></p>
+<p><h2>PHP 320.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>F. Scott Fitzgerald's novel,The Great Gatsby, follows Jay Gatsby, a man who orders his life around one desire: to be reunited with Daisy Buchanan, the love he lost five years earlier. Gatsby's quest leads him from poverty to wealth, into the arms of his beloved, and eventually to death.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/The_Great_Gatsby" target="_blank">More description</a>
+<br>
+<br>
+ <br>
+<br>
+<br>
+   <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKPneOFTvRKKmb4Qzd6_gF1bCqKB_RhJ3HlfZysW7h3CYfnoXf" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Pride and Prejudice</h2></p>
+<p><h3>Author: Jane Austen</h3></p>
+<p><h2>PHP 274.81</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome the titular sins of pride and prejudice in order to fall in love and marry.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Pride_and_Prejudice" target="_blank">More description</a>
+<br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+   <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlfyst_dQ2FWDQt7AqyYvPD2m8o915IUkZ3_nKftuXOrQh1hN7" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Frankenstein</h2></p>
+<p><h3>Author:  Mary Shelley</h3></p>
+<p><h2>PHP 578.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The book tells the story of Victor Frankenstein, a Swiss student of natural science who creates an artificial man from pieces of corpses and brings his creature to life. Though it initially seeks affection, the monster inspires loathing in everyone who meets it.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Frankenstein" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <h2 align=middle><a style="color:#0e1e5e;" id="Non Fiction" class="A">Non Fiction</a></h2>
+ <br>
+ <br>
+   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1560816565i/48855.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">The Diary of a Young Girl</h2></p>
+<p><h3>Author: Anne Frank</h3></p>
+<p><h2>PHP 455.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The Diary of a Young Girl, also known as The Diary of Anne Frank, is a book of the writings from the Dutch-language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands.</i></b></p>
+
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ 
+   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595674533i/23692271.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Sapiens: A Breif History of Humankind</h2></p>
+<p><h3>Author: Yuan Noah Harari</h3></p>
+<p><h2>PHP 460.50</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The book, focusing on Homo sapiens, surveys the history of humankind, starting from the Stone Age and going up to the twenty-first century. The account is situated within a framework that intersects the natural sciences with the social sciences.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <img src="https://live-production.wcms.abc-cdn.net.au/585a5f20159f2689958a9cf3b60b3d13?impolicy=wcms_crop_resize&cropH=1774&cropW=1331&xPos=57&yPos=364&width=862&height=1149" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">A Brief History of Time</h2></p>
+<p><h3>Author: Stephen Hawking</h3></p>
+<p><h2>PHP 620.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>A Brief History of Time: From the Big Bang to Black Holes is a book on theoretical cosmology by English physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for readers who had no prior knowledge of physics.</i></b></p>
+
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/A_Brief_History_of_Time" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>   
+<article="
+   <h2 align=middle><a style="color:#0e1e5e;" id="Fantasy" class="A">Fantasy</a></h2>
+   <br>
+  <br>
+  <br>
+  <br>
+   <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Dune</h2></p>
+<p><h3>Author: Frank Herbert</h3></p>
+<p><h2>PHP 1,000.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Dune is a 1965 epic science fiction novel by American author Frank Herbert, originally published as two separate serials in Analog magazine. It tied with Roger Zelazny's This Immortal for the Hugo Award in 1966 and it won the inaugural Nebula Award for Best Novel. It is the first installment of the Dune saga.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Dune_(novel)" target="_blank">More description</a>
+<br>
+<br>
+ <br>
+<br>
+<br>
+ <img src="https://upload.wikimedia.org/wikipedia/en/1/1d/Twilightbook.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;">Twilight</h2></p>
+<p><h3>Author: Stephenie Meyer</h3></p>
+<p><h2>PHP 640.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Overview. Twilight, by Stephenie Meyer, is a young adult adventure-romance about a teenage girl who falls in love with a vampire. Her struggle to build a relationship in a world filled with suspicion and danger helped make the book a number-one New York Times bestseller.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Twilight_(novel_series)" target="_blank">More description</a>
+<br>
+<br>
+ <br>
+<br>
+<br>
+<br>
+ <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71yS-KZw9eL._AC_UF1000,1000_QL80_.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> Howl's Moving Castle </h2></p>
+<p><h3>Author: Diana Wynne Jones </h3></p>
+<p><h2>PHP 550.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Howl's Moving Castle is a fantasy novel by British author Diana Wynne Jones, first published in 1986 by Greenwillow Books of New York. It was a runner-up for the annual Boston Globeâ€“Horn Book Award, and won the Phoenix Award twenty years later. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Howl's_Moving_Castle" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article ="
+  <h2 align=middle><a style="color:#0e1e5e;" id="Drama" class="A">Drama</a></h2> 
+  <br>
+  <br>
+  <br>
+ <img src="https://static1.squarespace.com/static/55db3b44e4b01e5be14cad77/t/578e5321ebbd1a7b3c15aa85/1468945191072/?format=300w" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> Paper Towns </h2></p>
+<p><h3>Author: John Green </h3></p>
+<p><h2>PHP 299.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Paper Towns follows the story of Quentin, who is an obedient and smart teenager who spends his time with his two geeky best friends. However, he's always had romantic feelings for his neighbour, Margo Roth Spiegelman. Margo is a unique character who embraces life and wants to live it to the fullest. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Paper_Towns" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/817tHNcyAgL.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> The Fault in Our Stars </h2></p>
+<p><h3>Author: John Green </h3></p>
+<p><h2>PHP 540.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The Fault In Our Stars is a fabulous book about a young teenage girl who has been diagnosed with lung cancer and attends a cancer support group. Hazel is 16 and is reluctant to go to the support group, but she soon realises that it was a good idea. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1404331702i/18460392.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> All The Bright Places </h2></p>
+<p><h3>Author: Jennifer Niven </h3></p>
+<p><h2>PHP 525.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The film emphasizes the impact that one person can have on another's life and the beautiful moments they leave behind. The ending credits of the movie dedicate themselves to those struggling with mental illness and thoughts of suicide, encouraging all to reach out to their own "bright places" in their lives. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/All_the_Bright_Places" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <article ="
+  <h2 align=middle><a style="color: #0e1e5e;" id="Horror" class="A">Horror</a></h2> 
+  <br>
+  <br>
+  <br>
+ <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Carrienovel.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> Carrie</h2></p>
+<p><h3>Author: Stephen King </h3></p>
+<p><h2>PHP 488.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Carrie is a 1974 horror novel by American author Stephen King. Taking place in Chamberlain, Maine, it revolves around Carrie White, 
+  a friendless, bullied high-school girl from an abusive religious household who discovers she has telekinetic powers.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Carrie_(novel)" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Ring_1st_American_Edition.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> Ring </h2></p>
+<p><h3>Author: Koji Suzuki </h3></p>
+<p><h2>PHP 380.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Ring is a Japanese mystery horror novel by Koji Suzuki first published in 1991, and set in modern-day Japan. 
+  The novel was the first in the Ring novel series, and the first of a trilogy, along with two sequels: Spiral and Loop. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Ring_(Suzuki_novel)" target="_blank">More description</a>
+<br>
+<br>
+<br>
+ <br>
+ <br>
+ <br>
+ <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91Rya0PIuJL._AC_UF1000,1000_QL80_.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ 
+<p><h2 style="color:#962d2d;"> The Haunting of Hill House </h2></p>
+<p><h3>Author: Shirley Jackson </h3></p>
+<p><h2>PHP 510.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The story concerns four main characters: Dr. John Montague, an investigator of the supernatural; Eleanor Vance, 
+  a shy young woman who resents caring for her demanding, disabled mother; Theodora, a bohemian artist, and Luke Sanderson, the young heir to Hill House, who is host to the others. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/The_Haunting_of_Hill_House" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article ="
+  <h2 align=middle><a style="color:#ff00a2;" id="Shoujo" class="A">Shoujo</a></h2> 
+  <br>
+  <br>
+  <br>
+ <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442161482i/271199.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Fruit Basket VOL 1 </h2></p>
+<p><h3>Author: Natsuki Takaya </h3></p>
+<p><h2>PHP 899.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>The series focuses on Tohru Honda, an orphan girl who, after meeting Yuki, Kyo, and Shigure Sohma, 
+  learns that thirteen members of the Sohma family are possessed by the animals of the Chinese zodiac legend and are cursed to turn into their animal forms if they are embraced by anyone of the opposite sex or their bodies. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Fruits_Basket" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <img src="https://upload.wikimedia.org/wikipedia/it/0/0f/HoriMiya_Volume_1.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Horimiya VOL 1</h2></p>
+<p><h3>Author: HERO </h3></p>
+<p><h2>PHP 770.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Horimiya is a refreshing teen romance story that centres on the titular Kyoko Hori and Izumi Miyamura,
+   two high school classmates who quickly fall in love. What is this? Hori-san is a popular honour student with a hidden home life: she raises her little brother and manages the home because her parents are "busy". </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Hori-san_to_Miyamura-kun" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <img src="https://upload.wikimedia.org/wikipedia/en/0/02/KaichouwaMaidSama_vol01_Cover.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Maid Sama!</h2></p>
+<p><h3>Author: Hiro Fujiwara </h3></p>
+<p><h2>PHP 854.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Once an all-boys high school, Seika High, infamous for its rowdy students, has recently become a co-ed school. 
+  However, with the female population remaining a minority even after the change over the recent years, Misaki Ayuzawa works hard to make the school a better place for girls. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Maid_Sama!" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article ="
+  <h2 align=middle><a style="color:#ff00a2;" id="Sports" class="A">Sports</a></h2> 
+  <br>
+  <br>
+  <br>
+ <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568620857l/51629785._SX0_SY0_.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Slam Dunk VOL 1 </h2></p>
+<p><h3>Author: Takehiko Inoue </h3></p>
+<p><h2>PHP 1,546.88</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i> Sakuragi Hanamichi is a no-good, high school punk that is famous to some for his fighting exploits. And because of that, he gets rejected by girls whenever he confesses to them. 
+In comes Haruko Akagi. With his eyes and heart for her, he decides to do anything to win her heart, even playing basketball. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Slam_Dunk_(manga)" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
+  <br>
+ <img src="https://m.media-amazon.com/images/M/MV5BNjMxMDJkNGQtMDkwMy00ZmQyLThjNWQtODYyODU2MmYwYTA1XkEyXkFqcGdeQXVyMTQ3MjMyMTYz._V1_.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Kuroko no Basuke </h2></p>
+<p><h3>Author: Tadatoshi Fujimaki/h3></p>
+<p><h2>PHP 345.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Started in December 2008, Kuroko no Basuke tells the story of a high school basketball team trying to make it to the Interhigh.
+ The series is serialized in Weekly ShÅnen Jump and an anime adaption produced by Production I.G. began in April 2012 and ended in September. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Kuroko%27s_Basketball" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51r7FqAIw8L.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Haikyu!! VOL 1</h2></p>
+<p><h3>Author: Haruichi Furudate </h3></p>
+<p><h2>PHP 420.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Shoyo Hinata is out to prove that in volleyball you don't need to be tall to fly! Ever since he saw the legendary player known as
+ "the Little Giant" compete at the national volleyball finals, Shoyo Hinata has been aiming to be the best volleyball player ever! </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Haikyu!!" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article ="
+  <h2 align=middle><a style="color:#ff00a2;" id="shonen" class="A">Shonen</a></h2> 
+  <br>
+  <br>
+  <br>
+  <br>
+ <img src="https://booksandbao.com/wp-content/uploads/2020/12/81TmHlRleJL-667x1000.jpg.webp" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Jujutsu Kaisen</h2></p>
+<p><h3>Author: Gege Akutami </h3></p>
+<p><h2>PHP 458.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>  Yuji Itadori is resolved to save the world from cursed demons, but he soon learns that the best way 
+to do it is to slowly lose his humanity and become one himself! In a world where demons feed on unsuspecting humans, fragments of the legendary and feared demon Ryoma Sukuna were lost and scattered about.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Jujutsu_Kaisen" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
+  <br>
+ <img src="https://booksandbao.com/wp-content/uploads/2020/12/81VAgJoB3BL-667x1000.jpg.webp" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> One Punch Man </h2></p>
+<p><h3>Author: Tomohiro or ONE</h3></p>
+<p><h2>PHP 569.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>One-Punch Man is a Japanese superhero franchise that tells the story of Saitama, 
+a superhero who can defeat any opponent with a single punch but seeks to find a worthy opponent after growing bored by a lack of challenge due to his overwhelming strength. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/One_(manga_artist)" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<img src="https://booksandbao.com/wp-content/uploads/2020/12/91U6MteasL-666x1000.jpg.webp" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> My  Hero Academia </h2></p>
+<p><h3>Author: Haruichi Furudate </h3></p>
+<p><h2>PHP 370.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i>Middle school student Izuku Midoriya wants to be a hero more than anything, but he hasn't got an ounce of power in him. 
+With no chance of ever getting into the prestigious U.A. High School for budding heroes, his life is looking more and more like a dead end.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/My_Hero_Academia" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<article ="
+  <h2 align=middle><a style="color:#ff00a2;" id="Comedy" class="A">Comedy</a></h2>
+  <br> 
+  <br>
+<br>
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Kaguya-sama_-_Love_is_War%2C_volume_1.jpg/220px-Kaguya-sama_-_Love_is_War%2C_volume_1.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Kaguya-sama: Love is War </h2></p>
+<p><h3>Author: Aka Akasaka </h3></p>
+<p><h2>PHP 433.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i> Kaguya Shinomiya and Miyuki Shirogane are two geniuses who stand atop their prestigious academy's student council, making them the elite among elite. 
+  But it's lonely at the top and each has fallen for the other.</i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Kaguya-sama:_Love_Is_War" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Fullmetal123.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Fullmetal Alchemist </h2></p>
+<p><h3>Author: Hiromu Arakawa </h3></p>
+<p><h2>PHP 475.00</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i> Set in the early 20th century, in a fictional universe in which alchemy is a widely practiced science, 
+the series follows the journey of two alchemist brothers, Edward and Alphonse Elric, who are searching for the philosopher's
+stone to restore their bodies after a failed attempt to bring their mother back to life. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Spy_Family_vol_1.jpg/220px-Spy_Family_vol_1.jpg" alt="" title="NAM 90" height="250" width="190" class="book">
+ </p>
+ <p><h2 style="color:#ff63c6;"> Spy x Family </h2></p>
+<p><h3>Author: Tatsuya Endo </h3></p>
+<p><h2>PHP 422.45</h2></p>
+ 
+<a class="button button1" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Add to Cart</a>
+<a class="button button2" href="https://rischonghtmlgr9.w3spaces.com/CHONGMAGANDUHCSSFORM.html">Buy now</a>
+<p><b><i> A spy on an undercover mission gets married and adopts a child as part of his cover. 
+His wife and daughter have secrets of their own, and all three must strive to keep together. </i></b></p>
+<br>
+<br>
+<a href="https://en.wikipedia.org/wiki/Spy_%C3%97_Family" target="_blank">More description</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <h2 align=middle><a style="color:light blue;"
+  <h2 align=middle><a style="color:#0065f2;" id="About us" class="A">About us!</a></h2> 
+  <br>
+  <br>
+  <br>
+  <h3 class="name"> Ma. Theresita P. Chong </h3>
+   <h3 class="name"> Zandrea Nichole Gacelan </h3>
+  <br>
+  <br>
+  <br>
+  <br>
+ <br>
+ <br>
+ <br>
+   <br>
+   <br>
+ <h3> How It all started</h3>
+ <div>
+ <p style="font-size"> our business starts when we're in high school, we decided to sell books because teens prefer reading books as pastime than gadgets. we started  selling to our close friends and family. until our business became bigger we started to make site of our store so that the people in other places can also buy our products.
+ </p>
+ </div>
+<br>
+<br>
+<footer style="
+  background-color:#2d4296;
+  padding: 30px;
+    text-align: center;
+    font-family: Copperplate, fantasy;
+    font-weight: bold;
+    color: white;">
+    <h2 class="footer">Contact Us!</h2>
+    <h3 style="color:white;" id="sm">Message from the Books for You and Me owner!:</h3>
+    <h3 id="as">Thank you for trusting our small shop and let us know if you'd like to recommend books for us to sell... We, as your sellers, are always happy to hear your satisfied feedback on our shop and we'd hope for you to comeback. As a small shop seller it is hard for someone to trust us, So thank you for supporting us till the end! ps:  we hope that you'll like our products. if there's any problem or broken product just contact us on our cellphone number. 09665483960.  </h3>
+    <br>
+ 
+</footer>
+ 
+</body>
+</html>
