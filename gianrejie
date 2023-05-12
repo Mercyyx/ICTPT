@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>R n G</title>
+  <style>
+    body {
+      font-family: Helvetica, Arial, san-serif;
+      background-color: #d3d3d3;
+      color: black;
+    }
+
+    .dropbtn {
+      list-style-type: none margin: 50;
+      background-color: gray;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: 4px;
+      cursor: pointer;
+    }
+
+    .dropbtn:hover,
+    .dropbtn:focus {
+      list-style-type: none margin: 50;
+      background-color: Gray;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: gray
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: Grey;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    li {
+      flex: 1;
+      margin-right: 16px;
+      margin-bottom: 16px;
+      max-width: 250px;
+      min-width: 200px;
+      background-color: #f2f2f2;
+      padding: 16px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+    }
+
+    .add-to-cart {
+      padding: 4px 8px;
+      background-color: gray;
+      display: inline-block;
+      margin: 2px 4px;
+      text-decoration: none;
+      border-radius: 6px;
+      color: white;
+    }
+
+    .wishlist {
+      padding: 4px 8px;
+      background-color: gray;
+      display: inline-block;
+      margin: 2px 4px;
+      text-decoration: none;
+      border-radius: 6px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>R'n'G Tech</h1>
+    <div class="dropdown">
+      <button class="dropbtn">Categories</button>
+      <div class="dropdown-content">
+        <a href="Clothing">Clothing</a>
+        <a href="Shoes">Shoes</a>
+        <a href="Accessories">Accessories</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h2>Welcome to R 'n' G online store!</h2>
+    <p>#1 Store for your gaming needs!.</p>
+
+    <section>
+      <h3><b>Devices, Consoles<b></h3>
+      <ul>
+        <li>
+          <h4>Nintendo Switch&trade; OLED</h4>
+          <p>Price:â‚±12,000</p>
+          <p>7 inch OLED screen, 128GB SSD</p>
+          <img src=https://cdn.shopify.com/s/files/1/0442/2749/4055/products/Nintendo-Switch---OLED-Model-White-2_a51d4fef-ee48-4aa7-b1af-6027f0e1f6a2_1024x1024.png?v=1634018574>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        <li>
+          <h4>Xiaomi&trade; BLACKSHARK 3</h4>
+          <p>Price:â‚±22,000</p>
+          <p>64mp Camera, 12GB RAM, 256GB SSD</p>
+          <img src=https://fdn2.mobgsm.com/vv/pics/xiaomi/xiaomi-black-shark-3-1.jpg>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        <li>
+          <h4>Playstation&trade; PS5</h4>
+          <p>Price: â‚±80,000</p>
+          <p>825GB SSD, GDDR 16GB memory<p>          
+          <img src=https://ph-live-01.slatic.net/p/cd43672a63f6356bd4199d4ae6d1d480.png>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>Accessories</h3>
+      <ul>
+        <li>
+          <h4>PS5 DUALSHOCK&trade;</h4>
+          <p>Price:â‚±750 </p>
+          <p> Extra Controllers for PS5<p>
+          <img src=https://gmedia.playstation.com/is/image/SIEPDC/dualsense-thumbnail-ps5-01-en-17jul20?$native$>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        
+        <li>
+          <h4>GLORIOUS&trade; Model O</h4>
+          <p>Price: â‚±3,500</p>
+          <p>58g mouse, 1000Hz polling rate</p>
+          <img src=https://i.rtings.com/assets/products/NVfJKRvL/glorious-model-o-wireless/design-large.jpg>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        
+        <li>
+          <h4>Logitech&trade; PRO X keyboard</h4>
+          <p>Price: $80</p>
+          <p>Mechanical, Hotswappable keyboard. Comes with Gateron&trade; Red switches</p>
+          <img src=https://resource.logitech.com/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-1.png>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Gift Cards</h3>
+      <ul>
+        <li>
+          <h4>20$ Steam&trade; Giftcard</h4>
+          <p>Price: â‚±1,100</p>
+          <img src=https://media.gamestop.com/i/gamestop/10116382>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        <li>
+          <h4>20$ Nintendo&trade; E-Shop Giftcard</h4>
+          <p>Price: â‚±1,100</p>
+          <img src=https://ph-test-11.slatic.net/p/c31e25736c07bf85243260251602b30d.jpg>
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+        
+        <li>
+          <h4>Playstation&trade; Store 20$ Giftcard</h4>
+          <p>Price: â‚±1,100</p>
+          <img src="https://ph-live-01.slatic.net/p/9f2b263a35e5da4997aa9177b3dd3d96.jpg">
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+          <li>
+          <h4>Fortnite&trade; 2800 V-Bucks Giftcard</h4>
+          <p>Price: â‚±1,100</p>
+          <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426792_sd.jpg">
+         <a class="add-to-cart" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Cart</a>
+         <a class="wishlist" href="https://q1activityfong.w3spaces.com/pt4ict.html">Add to Wishlist</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 R n G CORP. All rights reserved.</p>
+  </footer>
+  </li>
+  </ul>
+  </section>
+  </main>
+  <footer>
+    <p>Made by: Nathan Rejie A. Bernabat, Gian Mathew P. Fong.</p>
+    </footer>
+</body>
+
+</html>
